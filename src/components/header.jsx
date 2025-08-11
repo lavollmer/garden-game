@@ -4,7 +4,9 @@ import Logo from '../assets/logo.svg'
 const header = () => {
   return (
     <div>
-        <h1>Header</h1>
+        <h1>
+            <img src={Logo} alt="Logo" />
+        </h1>
     </div>
   )
 }
